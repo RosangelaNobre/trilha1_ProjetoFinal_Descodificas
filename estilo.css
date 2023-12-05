@@ -1,0 +1,221 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #eff1f1;
+    color: #294749;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Saira Extra Condensed', sans-serif
+}
+
+.corpo {
+    background-color: #f0f0fb;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #294749;
+}
+
+/* Estilos para a seção de destaque */
+.destaque {
+    background-image: url("img/img1.jpg");
+    background-size: cover;
+    color: #fff;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding: 80px 0;
+}
+
+/*navegar no fale conosco 
+input,
+label{
+    display: block;
+}*/
+
+/* Estilo para a seção Sobre Nós */
+.p1 {
+    text-align: justify;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    line-height: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.p2 {
+    text-align: justify;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    line-height: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+}
+
+/* Estilo para a seção Nossos Serviços */
+.servicos {
+    text-align: center;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    padding-top: 1rem;
+}
+
+.p3 {
+    text-align: center;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+/* ESTILO PARA SEÇÃO GRADE */
+.grid {
+    background-color: #f0f0fb;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    color: #294749;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.card p {
+    color: #294749;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+
+.card a {
+    background-color: #294749;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    background-color: #294749;
+}
+/* FIM DA SEÇÃO ESTILO PARA GRADE */
+
+/* Estilos para a seção do vídeo de apresentação */
+.sobre {
+    text-align: center;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+}
+
+/* ESTILO PARA O TÍTULO DA SEÇÃO VÍDEO */
+.video {
+    text-align: center;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+}
+/* FIM ESTILO SEÇÃO VÍDEO */
+
+/* ESTILO PARA CENTRALIZAÇÃO DO VÍDEO */
+.apresentacao_video {
+    text-align: center;
+}
+
+/* ESTILO PARA TÍTULO DO MAPA */
+.titulo_mapa {
+    text-align: center;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+}
+/* FIM ESTILO DO TÍTULO DO MAPA */
+
+/* CONFIGURAÇÃO DA SEÇÃO CONTATO */
+#contato {
+    margin: 20px;
+}
+
+#contato {
+    padding: 30px;                              /*separa o conteúdo e cria uma borda*/
+    border-radius: 4px;                         /*criar uma borda arredondada*/
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1); /*sombra*/
+    max-width: 600px;                           /*Margem para a caixa */
+    margin: 20px auto;                          /*margem de 20px e centralizado */
+}
+
+/*ESTILIZANDO O h2 */
+#contato h2 {
+    color: #294749;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 20px;
+}
+
+/*ESTILIZANDO LABEL */
+#contato label {
+    display: block;                 /*SEPARA AS CAIXINHAS */
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+/* ESTILIZANDO O INPUT */
+#contato input {
+    width: 100%;                   /* PEGAR TOTAL DA CAIXA */
+    border: 1px solid #ddd;
+    border-radius: 4px;             /*ARREDONDAR OS CANTOS */
+    padding: .5rem;                 /* EQUIVALE 16PX TAMANHO PADRÃO DE FONTE */
+    font-size: 1rem;
+    background: #f7f7f7;
+}
+
+#contato button {
+    margin-top: 20px;
+    display: block;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: .6rem 2rem;
+    border: none;
+    background: #294749;
+    border-radius: 4px;
+    color: #dde3e4;
+}
+
+/*FIM DA CONFIGURAÇÃO CONTATO */
+
+/* CONFIGURAÇÃO DO RODAPÉ */
+.footer {
+    background: #f0f0fb;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-align: center;
+    padding: 1rem 
+} 
+/* FIM ESTILO RODAPÉ */
+
+
